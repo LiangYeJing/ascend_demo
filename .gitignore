@@ -1,0 +1,53 @@
+# --- Python 编译缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 虚拟环境（本地） ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- 常见编辑器/IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- 构建/打包产物 ---
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.spec
+
+# --- 测试/覆盖率 ---
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# --- 日志/临时文件 ---
+*.log
+logs/
+*.tmp
+*.temp
+
+# --- Jupyter/数据 ---
+.ipynb_checkpoints/
+*.ipynb
+data/
+*.csv
+*.tsv
+
+# --- OS/杂项 ---
+.DS_Store
+Thumbs.db
+
+# --- 环境变量文件（若有） ---
+.env
+.env.*

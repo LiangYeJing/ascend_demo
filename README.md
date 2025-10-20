@@ -107,11 +107,6 @@ python main.py
   ]
   本项目会实时给出建议值并对比当前设置。
 
-* **理论拍数**（单 tile 的估算）：
-
-  * **Cube**：每个 (k) 层 1 拍 → (\text{cycles}_\text{cube} \approx \lceil \tfrac{M}{T_m}\rceil\cdot \lceil \tfrac{N}{T_n}\rceil \cdot K)
-  * **Vector**：(\text{cycles}*\text{vec} \approx \left\lceil \frac{\gamma*{\text{out}}\cdot T_m T_n + \gamma_{\text{in}}\cdot K\cdot (T_m+T_n)}{W_v} \right\rceil)
-
 * **带宽条（bits/cycle）**：
 
   * `L1→L0A`：激活/输入 A 列段（通常更高；Figure 9 中典型上限 4096）
